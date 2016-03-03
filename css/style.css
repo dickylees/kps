@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav_one{
+    width: 100%;
+}
+div.nav{
+    font-family: "微软雅黑", "黑体";
+    width: 96%;
+    height: 90px;
+    margin: 0 auto;
+ }
+ .nav_one{
+     margin: 0 auto;
+ }
+ .nav_two{
+     float: left;
+     width: 96%;
+     white-space: normal;
+     position: relative;
+     right: 30px;
+ }
+.green{
+    color: #39a030;
+    font-weight: bolder;
+    font-size: 22px;
+}
+.oct{
+    font-size: 22px;
+    color: #333;
+    display: inline-block;
+    margin: 30px 0 0 0;
+}
+.wsw{
+    color: #39a030;
+}
+.bbt{
+    height: 23px;
+    margin: 0 0 0 25px;
+    position: relative;
+    bottom: 4px;
+}
+.nav_two p{
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    bottom: 3px;
+    font-size: 13px;
+}
+.nav_three{
+    float: right;
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+    left: 40px;
+}
+.nav_three a{
+    font-size: 16px;
+    color: #666;
+    margin: 30px 40px 0 0;
+}
+.nav_three a:hover{
+    text-decoration: none;
+    color: #39a030;
+}
+.nav_three span{
+    color: #666666;
+}
+.abc{
+    position: relative;
+    bottom: 2px;
+}
+
+/*//轮换图*/
+
+/* 接下来我们添加一些CSS，修改幻灯效果给淡入淡出 */
+
+
+
+#myCarousel{
+    margin-left: 135px;
+}
+.carousel-fade .carousel-inner .item{
+    opacity:0;
+    -webkit-transition-property:opacity ;
+    -moz-transition-property:opacity ;
+    -ms-transition-property:opacity ;
+    -o-transition-property:opacity ;
+    transition-property:opacity ;
+}
+
+.carousel-fade .carousel-inner .active{
+    opacity: 1;
+}
+/*三个图标*/
+.title-mm{
+    width: 1150px;
+    height: 215px;
+    margin: 50px auto;
+}
+.title-mm h2{
+    font-size: 22px;
+    font-family: "微软雅黑", "黑体";
+}
+.title-mm img{
+    position: relative;
+    top: 25px;
+}
+
+.title-mm p{
+    font-size: 14px;
+    font-family: "微软雅黑", "黑体";
+    line-height: 24px;
+    color: #666;
+    width: 250px;
+    margin-top: 15px;
+}
+.title-mm a{
+    font-size: 14px;
+    font-family: "微软雅黑", "黑体";
+    width: 250px;
+    position: relative;
+    color: #39a030;
+    top: 15px;
+}
+.title-mm a:hover{
+    color: #39a030;
+}
+.tts{
+    position: relative;
+    bottom: 80px;
+    left: 105px;
+}
+/*五张图片*/
+.five{
+    width: 1616px;
+    height: 224px;
+    margin: 0 auto;
+}
+/*五张图片（完）*/
+.tab{
+    width: 100%;
+    height: 1836px;
+    background: #f8f8f8;
+}
+.tab_one{
+    width: 1216px;
+    height: 1552px;
+    margin: 0 auto;
+}
+.tab_one li{
+    list-style-type: none;
+    text-align: center;
+}
+.tab_one li p{
+    position: relative;
+    top: 10px;
+}
+/*切换*/
+.www{
+    width: 200px;
+    height: 50px;
+    font-family: "微软雅黑", "黑体";
+    font-size: 20px;
+    float: left;
+    cursor: pointer;
+    background: #ffffff;
+    box-shadow: 1px 1px 2px #888888;
+    color: #666;
+}
+.one_c{
+    background: #39a030;
+    color: #fff;
+}
+
+.con_one{
+    width: 1100px;
+    height: 1310px;
+    position: relative;
+    top: 65px;
+}
+.fox{
+    width: 203px;
+    height: 55px;
+    background: #fff;
+    float: right;
+    position: relative;
+    top: 80px;
+    /*border-bottom: 1px solid #ababab;*/
+    box-shadow: 1px 1px 2px #D9D9D9;
+}
+.fox2{
+    width: 203px;
+    height: 55px;
+    background: #fff;
+    float: right;
+    position: relative;
+    top: 20px;
+    /*border-bottom: 1px solid #ababab;*/
+    box-shadow: 1px 1px 2px #D9D9D9;
+}
+.fox p{
+    color: #333;
+    font-size: 16px;
+    font-family: "微软雅黑", "黑体";
+    margin: 15px 30px;
+}
+.fox2 p{
+    color: #333;
+    font-size: 16px;
+    font-family: "微软雅黑", "黑体";
+    margin: 15px 30px;
+}
+.fox_two{
+    width: 203px;
+    height: 174px;
+    background: #fff;
+    float: right;
+    margin-top: 80px;
+    box-shadow: 1px 1px 2px #d9d9d9;
+}
+.fox_three{
+    width: 203px;
+    height: 720px;
+    background: #fff;
+    float: right;
+    margin-top: 20px;
+    box-shadow: 1px 1px 2px #d9d9d9;
+}
+.fox_two p{
+    font-size: 12px;
+    color: #666;
+    margin: 15px 10px;
+}
+.fox_two img{
+    margin: 0 10px ;
+}
+.video_one{
+    width: 950px;
+    height: 676px;
+    background: #ffffff;
+    z-index: 9999;
+    position: fixed;
+    margin: 0 auto;
+    left: 500px;
+    top: 130px;
+    display: none;
+}
+.video_one p{
+    color: #444;
+    font-size: 18px;
+    font-family: "微软雅黑", "黑体";
+    margin: 35px 35px;
+}
+.video_one video{
+    margin-left: 30px;
+    position: relative;
+    bottom: 15px;
+}
+.video_one img{
+    float: right;
+    position: relative;
+    right: 10px;
+    top: 10px;
+}
+
+/*课程信息*/
+
+.ccs{
+    width: 225px;
+    height: 228px;
+    background: #fff;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 2px #D9D9D9;
+    float: left;
+    cursor: pointer;
+}
+.sssw{
+    width: 970px;
+    height: 1310px;
+}
+.ccs img{
+    margin: 1px 1px;
+}
+.ccs p{
+    color: #666;
+    font-size: 12px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+img.wws{
+    margin-left: 5px;
+}
+.ccs h4{
+    color: #999;
+    font-size: 12px;
+    margin-left: 5px;
+}
+.ccs h5{
+    color: #ff3f00;
+    font-size: 12px;
+    margin: 5px 5px;
+    font-weight: bolder;
+}
+.fox_three img{
+    margin: 10px 10px;
+}
+.ops{
+    margin: 0;
+    position: relative;
+    left: 54px;
+    bottom: 45px;
+}
+.fox_three p{
+    font-family: "微软雅黑", "黑体";
+    display: inline-block;
+    position: relative;
+    bottom: 16px;
+    right: 8px;
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+.diudiudiu{
+    float: left;
+    width: 203px;
+    height: 68px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+.abc2{
+    display: none;
+}
+.wwer{
+    float: right;
+    position: relative;
+    top: 75px;
+    right: 255px;
+}
+/*尾部*/
+.g-ft{
+    height: 262px;
+    width: 100%;
+    background: #2c3339;
+}
+.g-ft p{
+    color: #a2a4a5;
+}
+.logo{
+    color: #39a030;
+    font-size: 24px;
+    font-family: "微软雅黑", "黑体";
+}
+.copyRight{
+   margin: 0 400px;
+    position: relative;
+    top: 80px;
+}
+.copyRight p{
+    margin-top: 20px;
+    font-size: 12px;
+}
+.friendLink{
+    margin-left: 800px;
+}
+.friendLink p{
+    font-size: 12px;
+    font-family: "微软雅黑", "黑体";
+}
+.friendLink a{
+    font-size: 15px;
+    font-family: "微软雅黑", "黑体";
+    color: #a2a4a5;
+}
+.about{
+    position: relative;
+    margin-left: 1100px;
+    bottom: 50px;
+    color: #a2a4a5;
+}
+.about p{
+    font-size: 12px;
+    font-family: "微软雅黑", "黑体";
+}
+.about a{
+    font-size: 15px;
+    font-family: "微软雅黑", "黑体";
+    color: #a2a4a5;
+}
+.more{
+    position: relative;
+    bottom: 50px;
+    margin-left: 1230px;
+    bottom: 99px;
+}
+.more p{
+    font-size: 12px;
+    font-family: "微软雅黑", "黑体";
+}
+.more a{
+    font-size: 15px;
+    font-family: "微软雅黑", "黑体";
+    color: #a2a4a5;
+}
